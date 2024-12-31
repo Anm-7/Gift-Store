@@ -222,6 +222,11 @@ nav header .links li a.active {
     align-items: center;
     /* flex-wrap: wrap; */
 }
+@media (max-width:767px) {
+    .profile{
+        flex-direction: column;
+    }
+}
 
 .our-company .about-img{
    width: 100%;
